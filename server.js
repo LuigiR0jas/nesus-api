@@ -41,5 +41,5 @@ apiRouter.get('/', function(req, res){
 
 app.use('/api', apiRouter);
 
-app.listen(port)
+app.listen(port, '0.0.0.0')
 console.log('SERVER RUNNING ON ', port);
